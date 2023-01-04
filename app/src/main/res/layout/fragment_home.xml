@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/green">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_menu_24"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ubazerhome"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_search_24"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_shopping_cart_24"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:src="@drawable/grocerryimg"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vegetable"
+                android:id="@+id/SHOW_ALL"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:elevation="5dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vegetable"
+                android:id="@+id/SHOW_fruits"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:elevation="5dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vegetable"
+                android:id="@+id/SHOW_vegetable"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:elevation="5dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vegetable"
+                android:id="@+id/SHOW_fish"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:elevation="5dp"/>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:paddingTop="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/itemRV"
+            android:layout_width="match_parent"
+            android:layout_height="430dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:gravity="bottom">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:id="@+id/bottom_Home"
+                android:padding="3dp"
+                android:layout_margin="3dp"
+                android:src="@drawable/ic_baseline_home_24"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="3dp"
+                android:layout_margin="3dp"
+                android:id="@+id/bottom_cart"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_shopping_cart_24"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="3dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:id="@+id/bottom_fvrt"
+                android:src="@drawable/ic_baseline_favorite_border_24"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="3dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:id="@+id/bottom_account"
+                android:src="@drawable/ic_baseline_account_circle_24"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

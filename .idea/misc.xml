@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Ubazer/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1105" />
+        <entry key="..\:/Ubazer/app/src/main/res/drawable/ic_rectangle_1460.xml" value="0.1105" />
+        <entry key="..\:/Ubazer/app/src/main/res/drawable/ic_ubagarsvg.xml" value="0.1" />
+        <entry key="..\:/Ubazer/app/src/main/res/drawable/saha.xml" value="0.1" />
+        <entry key="..\:/Ubazer/app/src/main/res/drawable/saha_splash.xml" value="0.1" />
+        <entry key="..\:/Ubazer/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Ubazer/app/src/main/res/layout/activity_main.xml" value="0.21510416666666668" />
+        <entry key="..\:/Ubazer/app/src/main/res/layout/drawer_header_layout.xml" value="0.21927083333333333" />
+        <entry key="..\:/Ubazer/app/src/main/res/layout/fragment_blank.xml" value="0.17844202898550723" />
+        <entry key="..\:/Ubazer/app/src/main/res/layout/fragment_first_screen.xml" value="0.1" />
+        <entry key="..\:/Ubazer/app/src/main/res/layout/fragment_hello.xml" value="0.17844202898550723" />
+        <entry key="..\:/Ubazer/app/src/main/res/layout/fragment_home.xml" value="0.2986111111111111" />
+        <entry key="..\:/Ubazer/app/src/main/res/layout/fragment_home2.xml" value="0.21510416666666668" />
+        <entry key="..\:/Ubazer/app/src/main/res/layout/fragment_homeapp.xml" value="0.21927083333333333" />
+        <entry key="..\:/Ubazer/app/src/main/res/layout/fragment_secondscreen.xml" value="0.13360507246376813" />
+        <entry key="..\:/Ubazer/app/src/main/res/layout/fragment_splash.xml" value="0.21510416666666668" />
+        <entry key="..\:/Ubazer/app/src/main/res/layout/fragment_splash_home.xml" value="0.15670289855072464" />
+        <entry key="..\:/Ubazer/app/src/main/res/layout/fragment_third_screen.xml" value="0.264" />
+        <entry key="..\:/Ubazer/app/src/main/res/layout/fragment_welcome.xml" value="0.2" />
+        <entry key="..\:/Ubazer/app/src/main/res/layout/item_row.xml" value="0.21927083333333333" />
+        <entry key="..\:/Ubazer/app/src/main/res/menu/drawer_resource.xml" value="0.4" />
+        <entry key="..\:/Ubazer/app/src/main/res/menu/main_menu.xml" value="0.21927083333333333" />
+        <entry key="..\:/Ubazer/app/src/main/res/menu/todo_list_menu.xml" value="0.21927083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

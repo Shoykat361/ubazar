@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="@string/myprofile"
+    android:id="@+id/drawerProfile"
+    android:icon="@drawable/welcometo"/>
+
+    <item android:title="@string/myorder"
+        android:id="@+id/drawerorder"
+        android:icon="@drawable/second"/>
+</menu>
